@@ -1,0 +1,46 @@
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+.button{
+    border-radius: 34px;
+    border: none;
+    color: whitesmoke;
+    padding : 10px;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    flex: 1 1 auto;
+    box-shadow: 0 0 5px var(--orange);
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.button:hover{
+    background: white;
+    cursor:pointer;
+     color: var(--orange);
+     /* border : 1px solid var(--orange); */
+     border: 1px solid var(--orange);
+}
+
+/* contact us button complete */
+
+
+  
+
+  
