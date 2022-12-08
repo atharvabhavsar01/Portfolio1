@@ -1,0 +1,68 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: 2rem;
+    
+    
+  }
+
+  .footer>img {
+     height: 18rem;
+
+    
+  }
+
+  
+   
+
+  .content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 2rem;
+    padding: 2rem;
+    color: white;
+  }
+  .f-icons {
+    display: flex;
+    gap: 2rem;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    margin-top: 4rem;
+  }
+  /* .content>span{
+    padding-top: 0px;
+    position: absolute;
+    margin-top: 6rem;
+  } */
+  .content:nth-child(2){
+    padding-top: 8px;
+    position: absolute;
+    margin-top: 4rem;
+
+
+
+  }
+  .content>.love{
+      position: absolute;
+    margin-top:12rem;
+  }
+
+
+  .content>#email1{
+      position: absolute;
+      margin-top:-2rem;
+  }
+ 
+  @media screen and (max-width: 480px){
+    .f-content{
+      transform: scale(.5);
+    }
+  }

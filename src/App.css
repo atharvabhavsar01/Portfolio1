@@ -17,6 +17,29 @@
     color: var(--black);    
 }
 
+.button{
+    border-radius: 34px;
+    border: none;
+    color: whitesmoke;
+    padding : 10px;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    flex: 1 1 auto;
+    box-shadow: 0 0 5px var(--orange);
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.button:hover{
+    background: white;
+    cursor:pointer;
+     color: var(--orange);
+     /* border : 1px solid var(--orange); */
+     border: 1px solid var(--orange);
+}
+
+/* contact us button complete */
+
 
   
 
