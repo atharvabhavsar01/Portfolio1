@@ -8,7 +8,7 @@ import db from '../../img/database.jpg'
 const Services = (props) => {
   return (
     <>
-      <div className="service">
+      <div className="service" id="Services">
         {/* left side */} 
         <div className="awesome">
           <h3>

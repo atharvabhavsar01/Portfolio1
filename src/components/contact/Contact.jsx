@@ -23,7 +23,7 @@ function Contact() {
         <>
         <form ref={form} onSubmit={sendEmail}> 
 
-        <div className="contact cardcontact">
+        <div className="contact cardcontact " id="contact">
 
          <div className="leftside">
          <span>Get in Touch</span>

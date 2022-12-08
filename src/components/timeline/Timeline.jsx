@@ -12,35 +12,36 @@ function Timeline() {
         // showAllCardsVertical 
         twoColumns
         slideShow 
+        
         // mode="VERTICAL_ALTERNATING"
       >
-        <div>
-          <h3>This is a List</h3>
+        <div  id="education" style={{color:'var(--orange)'}}>
+          <h3>10th board</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
+            <li>j.d.c. bytco english medium high school,nashik.</li>
+            <li>93%</li>
           </ul>
         </div>
-        <div>
-          <h3>This is a List</h3>
+        <div style={{color:'var(--orange)'}}>
+          <h3>12th board</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
+            <li>Bytco collge,nashik.</li>
+            <li>82%</li>
           </ul>
         </div>
-        <div>
-          <h3>This is a List</h3>
+        <div style={{color:'var(--orange)'}}>
+          <h3>BE</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
+            <li>K. K. Wagh Institute of engineering education and research ,nashik. </li>
+            <li>Sgpa 9.05</li>
           </ul>
         </div>
-        <div>
-          <h3>This is a List</h3>
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-          </ul>
+        <div style={{color:'var(--orange)'}}>
+          <h3>Milestone yet to achieve!</h3>
+          {/* <ul>
+            <li> </li>
+            <li> </li>
+          </ul> */}
         </div>  
          
       </Chrono>
